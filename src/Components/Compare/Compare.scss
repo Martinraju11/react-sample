@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 320px) {
+  .compare-container {
+    width: 96%;
+    margin: auto;
+  }
+  .compare-col {
+    height: 240px;
+  }
+  .compare-table th {
+    width: 20%;
+  }
+  .inside {
+    left: 8%;
+    padding: 10px;
+  }
+  .compare-table th,
+  .compare-table td {
+    font-size: 10px;
+  }
+}
+@media (min-width: 620px) {
+  .compare-container {
+    width: 94%;
+    margin: auto;
+  }
+  .compare-table th {
+    width: 20%;
+  }
+  .compare-col {
+    height: 320px;
+  }
+  .inside {
+    left: 30%;
+    padding: 15px;
+  }
+  .compare-table th,
+  .compare-table td {
+    font-size: 14px;
+  }
+}
+@media (min-width: 960px) {
+  .compare-container {
+    width: 85%;
+    margin: auto;
+  }
+
+  .compare-table th {
+    width: 30%;
+  }
+  .compare-col {
+    height: 360px;
+  }
+  .inside {
+    left: 40%;
+    padding: 20px;
+  }
+  .compare-table th,
+  .compare-table td {
+    font-size: 16px;
+  }
+}
+.compare-container {
+  width: 85%;
+  margin: auto;
+}
+.compare-top-head {
+  padding: 10px 0;
+}
+.compare-top-para {
+  padding: 10px 0;
+}
+.compare-row {
+  display: flex;
+  margin-top: 20px;
+}
+.compare-col {
+  width: 50%;
+  border: 1px solid #111;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compare-col img {
+  max-width: 100%;
+  padding: 10px;
+}
+.head-select {
+  padding: 10px;
+}
+.compare-btn {
+  margin-top: 30px;
+}
+.compare-btn > button {
+  padding: 10px;
+  width: 30%;
+  background-color: rgb(218, 18, 18);
+  color: #fff;
+  border: 1px solid rgb(218, 18, 18);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.compare-table {
+  margin-top: 30px;
+}
+.compare-table th {
+  text-align: left;
+}
+.outside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #11111146;
+}
+.compare-col {
+  position: relative;
+}
+.inside {
+  position: absolute;
+  top: 15%;
+
+  background-color: #fff;
+}
+.compare-pic > img {
+  width: 80%;
+}
+.label-comp {
+  padding-right: 10px;
+}
+.compare-row,
+.compare-btn,
+.compare-table {
+  margin: 15px 0;
+}
+.compare-table th,
+.compare-table td {
+  border: 1px solid #111;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #111 !important;
+  border-collapse: collapse !important;
+}
+.acc {
+  cursor: pointer;
+}

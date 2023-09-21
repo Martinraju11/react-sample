@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 320px) {
+  .pri-container {
+    width: 96%;
+    margin: auto;
+  }
+  .pri-col {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (min-width: 620px) {
+  .pri-container {
+    width: 94%;
+    margin: auto;
+  }
+  .pri-col {
+    width: 50%;
+    padding: 10px;
+  }
+}
+@media (min-width: 960px) {
+  .pri-container {
+    width: 85%;
+    margin: auto;
+  }
+  .pri-col {
+    width: 33.33%;
+    padding: 10px;
+  }
+}
+
+.pri-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pri-card {
+  border: 1px solid #1111113a;
+}
+.pri-card img {
+  max-width: 100%;
+  padding: 10px;
+}
+.pri-details {
+  padding: 10px;
+  background-color: #b9b7b725;
+}
+.pri-details p {
+  padding: 6px 0;
+}
+.pri-btn {
+  background-color: #b9b7b725;
+}
+.pri-btn button {
+  padding: 5px 6px;
+  background-color: rgb(230, 18, 18);
+  color: #fff;
+  border: 1px solid rgb(230, 18, 18);
+  margin: 0 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.pri-container h2 {
+  padding: 15px 0;
+  font-size: 24px;
+}
+.pri-details > h3 {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 0;
+}
